@@ -1,17 +1,17 @@
-package poo5;
+package ejercicio1;
 
-public class GradeBook {
+public class gradeBook {
     private String courseName;
     public String getCourseName() {
         return courseName;
     }
 
     public void setCourseName(String courseName) {
-        this.courseName=courseName;
+        this.courseName = courseName;
+    }
+    public String displayMessage(){
+        return "welcome to the gradebook, course name is: " + getCourseName();
     }
 
-    public GradeBook(){}
-    public String displayMessage(){
-        return "bienvenido a la planilla, el curso es: " + getCourseName();
-    }
+
 }
