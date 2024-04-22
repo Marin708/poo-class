@@ -1,4 +1,4 @@
-package Ejercicio08;
+package ejercicio8;
 
 import java.util.Random;
 
